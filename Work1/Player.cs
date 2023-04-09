@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Work1
 {
-    public class Player
+    public class Player 
     {
         public string Name { get; set; }
         public int Health {get; set; }
@@ -31,5 +31,6 @@ namespace Work1
         {
             Console.WriteLine(Name + " used item: " + inventory);
         }
+
     }
 }
